@@ -85,11 +85,23 @@ button:hover{
     color: black;
 } */
 
+@media screen and (max-width: 768px) {
+    .container{
+        width: 95%;
+        padding: 20px;
+    }
+
+    .task{
+        font-weight: 200 1.1rem 'Poppins';
+        padding: 15px;      
+    }
+}
+
 
 /* custom scrollbar */
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 18px;
 }
 ::-webkit-scrollbar-track{
     background: black;
